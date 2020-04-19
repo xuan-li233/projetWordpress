@@ -1,0 +1,28 @@
+@import "font-face";
+
+body {
+  background-color: $background;
+  font-family: $font-main !important;
+  text-align: center;
+  color: $police;
+  position: relative;
+
+  h1,
+  p {
+    margin-block-end: 0;
+  }
+
+  h1 {
+    font-size: 36pt;
+  }
+
+  img {
+    border: solid;
+    border-width: 5px;
+  }
+
+  .content {
+    width: 80%;
+    margin: 0 auto;
+  }
+}

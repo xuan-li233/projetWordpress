@@ -12,5 +12,5 @@
   <h2>Date:  {{$date}}</h2>
   </div>
   <p class="description">{{$description}}</p>
-  <a href="{{$url}}">{{$url}}</a>
+  <p class="link"><a href="{{$url}}">{{$url}}</a></p>
 @endsection
